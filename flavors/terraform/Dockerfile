@@ -13,7 +13,7 @@
 #FROM__START
 FROM hadolint/hadolint:latest-alpine as hadolint
 FROM yoheimuta/protolint:latest as protolint
-FROM wata727/tflint:latest as tflint
+FROM ghcr.io/terraform-linters/tflint:latest as tflint
 FROM accurics/terrascan:latest as terrascan
 FROM alpine/terragrunt:latest as terragrunt
 #FROM__END

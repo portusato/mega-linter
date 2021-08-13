@@ -106,7 +106,7 @@ Help Options:
 
 - Dockerfile commands :
 ```dockerfile
-FROM wata727/tflint:latest as tflint
+FROM ghcr.io/terraform-linters/tflint:latest as tflint
 COPY --from=tflint /usr/local/bin/tflint /usr/bin/
 ```
 
